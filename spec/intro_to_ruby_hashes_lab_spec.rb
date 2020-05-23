@@ -21,6 +21,7 @@ describe "working with hashes" do
     it "returns nil if the key is not found in the provided hash" do
       expect(read_from_hash({age: 31}, :name)).to eq(nil)
     end
+
   end
 
   describe "updating data in a hash" do
