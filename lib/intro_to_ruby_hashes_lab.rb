@@ -12,4 +12,5 @@ def update_counting_hash (hash, key)
   end
   else
     
+  end
 end
